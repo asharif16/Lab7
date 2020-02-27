@@ -20,10 +20,8 @@ public class RPSLSpockTest {
         Assert.assertTrue(RPSLSpock.isValidPick(RPSLSpock.SCISSORS));
         Assert.assertTrue(RPSLSpock.isValidPick(RPSLSpock.PAPER));
         Assert.assertTrue(RPSLSpock.isValidPick(RPSLSpock.ROCK));
+        Assert.assertFalse(RPSLSpock.isValidPick("banana"));
 
-        /**
-         * Method should return false if an invalid argument is passed (such as String "banana")
-         */
     }
 
     /**
